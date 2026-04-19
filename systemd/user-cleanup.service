@@ -1,0 +1,15 @@
+[Unit]
+Description=Automated User Management – cleanup expired accounts
+Documentation=file:///opt/user-management/README.md
+After=network.target
+
+[Service]
+Type=oneshot
+# Adjust the path if the scripts are installed elsewhere.
+ExecStart=/opt/user-management/cleanup_expired.sh
+# Keep the journal output available after the run finishes.
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=user-cleanup
+# Run as root so useradd/userdel work.
+User=root

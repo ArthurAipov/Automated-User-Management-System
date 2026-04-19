@@ -1,0 +1,14 @@
+[Unit]
+Description=Weekly cleanup of expired user accounts
+Documentation=file:///opt/user-management/README.md
+
+[Timer]
+# Fire every Monday at 02:00 local time.
+OnCalendar=Mon *-*-* 02:00:00
+# If the system was off at the scheduled time, run as soon as it comes back up
+# (but only if we missed the trigger within the last 6 hours).
+Persistent=true
+AccuracySec=1h
+
+[Install]
+WantedBy=timers.target

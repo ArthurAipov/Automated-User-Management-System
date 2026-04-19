@@ -1,0 +1,13 @@
+username,group,home_directory,expiry_date
+alice,developers,/home/alice,2027-01-01
+bob,developers,/home/bob,2027-06-30
+carol,designers,/home/carol,2027-03-15
+dave,devops,/home/dave,2027-12-31
+eve,developers,/home/eve,2025-01-01
+frank,designers,/home/frank,2025-06-01
+grace,devops,/home/grace,2027-09-01
+henry,developers,/home/henry,2026-07-01
+irene,designers,/home/irene,2025-03-01
+jack,devops,/home/jack,2027-11-30
+karen,developers,/home/karen,2027-04-15
+leo,designers,/home/leo,2025-12-01
