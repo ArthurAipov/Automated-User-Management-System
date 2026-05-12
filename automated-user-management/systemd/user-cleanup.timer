@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Automated User Management cleanup weekly
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+Unit=user-cleanup.service
+
+[Install]
+WantedBy=timers.target

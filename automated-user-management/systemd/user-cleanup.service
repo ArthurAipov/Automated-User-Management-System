@@ -1,0 +1,7 @@
+[Unit]
+Description=Automated User Management weekly expired account cleanup
+Documentation=file:/usr/local/share/automated-user-management/README.md
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/user_manager.sh --cleanup-expired

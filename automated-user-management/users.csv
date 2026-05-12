@@ -1,0 +1,12 @@
+username,group,home,expiry
+student01,students,/home/student01,2026-12-31
+student02,students,/home/student02,2026-12-31
+student03,students,/home/student03,2026-12-31
+student04,students,/home/student04,2026-12-31
+student05,students,/home/student05,2026-12-31
+intern01,interns,/home/intern01,2026-09-30
+intern02,interns,/home/intern02,2026-09-30
+labuser01,labusers,/home/labuser01,2026-08-15
+labuser02,labusers,/home/labuser02,2026-08-15
+research01,research,/home/research01,2027-01-31
+research02,research,/home/research02,2027-01-31

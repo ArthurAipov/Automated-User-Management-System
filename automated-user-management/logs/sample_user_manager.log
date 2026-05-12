@@ -1,0 +1,6 @@
+2026-05-11 10:00:00 | action=CREATE_GROUP | username=system | result=success
+2026-05-11 10:00:01 | action=CREATE_USER | username=student01 | result=success
+2026-05-11 10:00:02 | action=SET_PASSWORD_POLICY | username=student01 | result=success
+2026-05-11 10:00:03 | action=GENERATE_SSH_KEY | username=student01 | result=success
+2026-05-11 10:00:04 | action=USER_READY | username=student01 | result=home=/home/student01 group=students expiry=2026-12-31
+2026-05-11 10:05:00 | action=DRY_RUN_DELETE_EXPIRED_USER | username=oldstudent01 | result=userdel -r oldstudent01
