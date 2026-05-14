@@ -51,7 +51,7 @@ detect_supported_os() {
 install_packages() {
     printf 'Installing required packages...\n'
     apt-get update
-    apt-get install -y bash passwd openssh-client tree coreutils util-linux
+    apt-get install -y bash git passwd openssh-client tree coreutils util-linux
 }
 
 verify_required_commands() {
@@ -63,6 +63,7 @@ verify_required_commands() {
         chown
         date
         getent
+        git
         groupadd
         groupdel
         id
